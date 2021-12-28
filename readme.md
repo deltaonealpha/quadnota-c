@@ -10,12 +10,19 @@ A clean and minimal **notes and todo webapp** with a backend written in **vanill
 > Frontend Stack: `HTML/ CSS/ SAAS/ Bootstrap5` 
 > Backend Stack: `C/ Libpq/ Ulfius/ PostgreSQL`
 
-`🔴 Note: Building QuadNota from source requires C99+`
-
 ## The Design
 QUADNOTA takes on a design experience inspired by the perspex in nature. Gentle curves flow along transparent tiles that let you see what's behind, as a soothing blur encaptures your attention towards itself.
 
 This accessibility-oriented development of the UI allows for a more relaxed experience.
+
+## Installation
+##### Frontend
+Clone the GitHub repository and static host files under the frontend folder.
+
+##### Backend
+Clone the GitHub repository and compile source under the backend folder with GCC by passing includes:
+`gcc -o test test.c -I/usr/include/postgresql -lpq -std=c99 -lulfius`
+`🔴 Note: Building QuadNota from source requires C99+, libpq-dev and ulfius installed`
 
 
 ## Logic Flow
