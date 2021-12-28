@@ -1,6 +1,9 @@
 ![Banner](https://github.com/deltaonealpha/quadnota-c/blob/main/media_assets/banner.png?raw=true)
 
+![Build CI](https://img.shields.io/badge/build-passing-brightgreen) 
+![License](https://img.shields.io/badge/license-GNUAPLv3-yellow)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/deltaonealpha/quadnota-c) 
+![GitHub issues](https://img.shields.io/github/issues/deltaonealpha/quadnota-c)
 
 # QUADNOTA
 A clean and minimal **notes and todo webapp** with a backend written in **vanilla C**.
