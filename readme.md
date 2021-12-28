@@ -1,5 +1,7 @@
 ![Banner](https://github.com/deltaonealpha/quadnota-c/blob/main/media_assets/banner.png?raw=true)
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/deltaonealpha/quadnota-c) 
+
 # QUADNOTA
 A clean and minimal **notes and todo webapp** with a backend written in **vanilla C**.
 > Frontend Stack: `HTML/ CSS/ SAAS/ Bootstrap5` 
