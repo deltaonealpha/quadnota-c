@@ -10,6 +10,8 @@ A clean and minimal **notes and todo webapp** with a backend written in **vanill
 > Frontend Stack: `HTML/ CSS/ SAAS/ Bootstrap5` 
 > Backend Stack: `C/ Libpq/ Ulfius/ PostgreSQL`
 
+`🔴 Note: Building QuadNota from source requires C99+`
+
 ## The Design
 QUADNOTA takes on a design experience inspired by the perspex in nature. Gentle curves flow along transparent tiles that let you see what's behind, as a soothing blur encaptures your attention towards itself.
 
