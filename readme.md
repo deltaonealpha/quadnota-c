@@ -1,8 +1,4 @@
-﻿<link href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.css" rel="stylesheet" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  
- ![Banner](https://github.com/deltaonealpha/quadnota-c/blob/main/media_assets/banner.png?raw=true)
+![Banner](https://github.com/deltaonealpha/quadnota-c/blob/main/media_assets/banner.png?raw=true)
 
 # QUADNOTA
 A clean and minimal **notes and todo webapp** with a backend written in **vanilla C**.
