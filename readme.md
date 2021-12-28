@@ -35,3 +35,6 @@ Note right of ORM/Driver: QuadNota uses PostegreSQL
 
 ## License
 This project is licensed under the MIT Public License. For more information, read [LICENSE](/LICENSE). 
+
+## Privacy Statement
+The application logs basic network telemetry.
