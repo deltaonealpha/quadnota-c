@@ -18,10 +18,11 @@ This accessibility-oriented development of the UI allows for a more relaxed expe
 ## Installation
 ##### Frontend
 Clone the GitHub repository and static host files under the frontend folder.
-
 ##### Backend
 Clone the GitHub repository and compile source under the backend folder with GCC by passing includes:
+
 `gcc -o test test.c -I/usr/include/postgresql -lpq -std=c99 -lulfius`
+
 `🔴 Note: Building QuadNota from source requires C99+, libpq-dev and ulfius installed`
 
 
