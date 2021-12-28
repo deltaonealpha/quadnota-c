@@ -1,7 +1,7 @@
 ![Banner](https://github.com/deltaonealpha/quadnota-c/blob/main/media_assets/banner.png?raw=true)
 
 ![Build CI](https://img.shields.io/badge/build-passing-brightgreen) 
-![License](https://img.shields.io/badge/license-GNUAPLv3-yellow)
+![License](https://img.shields.io/badge/license-MIT-orange)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/deltaonealpha/quadnota-c) 
 ![GitHub issues](https://img.shields.io/github/issues/deltaonealpha/quadnota-c)
 
@@ -34,4 +34,4 @@ Note right of ORM/Driver: QuadNota uses PostegreSQL
 ```
 
 ## License
-This project is licensed under the GNU-APL-v3 Public License. For more information, read license.md. 
+This project is licensed under the MIT Public License. For more information, read [LICENSE](/LICENSE). 
