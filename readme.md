@@ -6,7 +6,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/deltaonealpha/quadnota-c)
 
 # QUADNOTA-C
-A clean and minimal **notes and todo webapp** with a backend written in **vanilla C**.
+A clean and minimal **notes and todo webapp** with RESTful APIs and a **C backend**.
 > Frontend Stack: `HTML/ CSS/ SAAS/ Bootstrap5` 
 > Backend Stack: `C/ Libpq/ Ulfius/ PostgreSQL`
 
@@ -16,16 +16,23 @@ QUADNOTA takes on a design experience inspired by the perspex in nature. Gentle 
 
 This accessibility-oriented development of the UI allows for a more relaxed experience.
 
+## DEMO
+A complete demo of QUADNOTA is available [here (quadnota.deltaonealpha.dev)](https://quadnota.deltaonealpha.dev/)
 
 ## Installation
 #### Compiling from source - direct
-###### Frontend 
-Clone the GitHub repository and static host files under the frontend folder.
 ###### Backend
-Clone the GitHub repository and compile source under the backend folder with GCC by passing includes:
+- Clone the GitHub repository
+- Prepare a PostgreSQL database with tables:
+    - "notes" (columns: id SERIAL (AUTOINCREMENT), header VARCHAR, bodypayload VARCHAR)
+    - "todo" (columns: id SERIAL (AUTOINCREMENT), bodypayload VARCHAR)
+- Change database credentials accordingly and compile source under the backend folder with GCC by passing includes:
 `gcc -o test test.c -I/usr/include/postgresql -lpq -std=c99 -lulfius`
 
 `🔴 Note: Building QuadNota from source requires C99+, libpq-dev and ulfius installed`
+
+###### Frontend 
+Clone the GitHub repository and static host files under the frontend folder after changing API endpoints with jQuery depending on your backend deployment state.
 
 #### Compiling from source - CMake
 To compile QuadNota with CMake, clone this repository and build with CMake after adding CMake source compilations for the following headers:
