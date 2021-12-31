@@ -1,0 +1,46 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "db-postgresql-ams3-20568-do-user-6976795-0.b.db.ondigitalocean.com",
+            "port": 25060,
+            "driver": "PostgreSQL",
+            "username": "doadmin",
+            "password": "hxlalig5pwhgn0cn",
+            "database": "defaultdb",
+            "name": "lirecent_main"
+        },
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "db-postgresql-delta12542-do-user-6976795-0.b.db.ondigitalocean.com",
+            "port": 25060,
+            "driver": "PostgreSQL",
+            "name": "lirecentmain",
+            "connectString": "postgresql://doadmin:show-password@db-postgresql-delta12542-do-user-6976795-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require",
+            "database": "defaultdb",
+            "username": "doadmin",
+            "password": "HvJSAGgg096Ixq5D"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "ca": "E:\\Downloads\\ca-certificate.crt"
+                }
+            },
+            "previewLimit": 50,
+            "server": "db-postgresql-delta12542-do-user-6976795-0.b.db.ondigitalocean.com",
+            "port": 25060,
+            "driver": "PostgreSQL",
+            "name": "lirecentmainx",
+            "database": "defaultdb",
+            "password": "HvJSAGgg096Ixq5D",
+            "username": "doadmin"
+        }
+    ]
+}
