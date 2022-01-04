@@ -8,7 +8,7 @@
 # QUADNOTA-C
 A clean and minimal **notes and todo webapp** with RESTful APIs and a **C backend**.
 > Frontend Stack: `HTML/ CSS/ SAAS/ Bootstrap5` 
-> Backend Stack: `C/ Libpq/ Ulfius/ PostgreSQL`
+> Backend Stack: `C/ PostgreSQL`
 
 
 ## The Design
@@ -20,8 +20,14 @@ This accessibility-oriented development of the UI allows for a more relaxed expe
 A complete demo of QUADNOTA is available [here (quadnota.deltaonealpha.dev)](https://quadnota.deltaonealpha.dev/)
 
 ## Pages
-- Home ()
+- Home
+- New Note
+- More (settings, about)
+- Browse note
 
+## Roadmap
+[ ] Allow notes to be edited
+[X] User authentication (Depricated, moved to [QuadNota Django](https://github.com/deltaonealpha/quadnota-py))
 
 ## Installation
 #### Compiling from source - direct
