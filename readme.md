@@ -19,6 +19,10 @@ This accessibility-oriented development of the UI allows for a more relaxed expe
 ## DEMO
 A complete demo of QUADNOTA is available [here (quadnota.deltaonealpha.dev)](https://quadnota.deltaonealpha.dev/)
 
+## Pages
+- Home ()
+
+
 ## Installation
 #### Compiling from source - direct
 ###### Backend
