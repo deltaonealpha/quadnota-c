@@ -26,8 +26,8 @@ A complete demo of QUADNOTA is available [here (quadnota.deltaonealpha.dev)](htt
 - Browse note
 
 ## Roadmap
-[ ] Allow notes to be edited
-[X] User authentication (Depricated, moved to [QuadNota Django](https://github.com/deltaonealpha/quadnota-py))
+- [ ] Allow notes to be edited
+- [X] User authentication (Depricated, moved to [QuadNota Django](https://github.com/deltaonealpha/quadnota-py))
 
 ## Installation
 #### Compiling from source - direct
