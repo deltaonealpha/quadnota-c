@@ -27,6 +27,7 @@ A complete demo of QUADNOTA is available [here (quadnota.deltaonealpha.dev)](htt
 
 ## Roadmap
 - [ ] Allow notes to be edited
+- [ ] Add option to change home page tab order
 - [X] User authentication (Depricated, moved to [QuadNota Django](https://github.com/deltaonealpha/quadnota-py))
 
 ## Installation
