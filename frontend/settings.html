@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html style="background: #181718;">
+
+<head>
+    <meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>QUADNOTA</title>
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=2f644164ad6a5913bc76e72118161a32">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css?h=4405a86aa591b631e663f03d1014b91e">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch-1.css?h=d86f30044a61257d651a6fba45afa4c4">
+    <link rel="stylesheet" href="assets/css/wysiwyg.css?h=4c321ae8d88c4847721a5487691e39b5">
+</head>
+
+<body id="page-top" style="background: #0d1117;">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion p-0 menulevel" style="background: #161b22;text-align: left;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" href="#" style="text-align: left;padding-top: 9px;padding-bottom: 9px;padding-right: 9px;padding-left: 9px;" title="Tap to go home">
+                    <div class="sidebar-brand-icon rotate-n-15"></div>
+                    <div class="sidebar-brand-text mx-3"><span style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;letter-spacing: 9px;font-weight: normal;text-align: left;">QUADNOTA</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <div style="padding-right: 5px;">
+                    <ul class="navbar-nav text-light" id="accordionSidebar-1">
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="index.html" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;background: transparent;margin-right: 0px;margin-left: 0px;" title="QuadNota home"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-folders" style="margin-bottom: 3px;margin-right: 9px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M9 4h3l2 2h5a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"></path>
+                                        <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2"></path>
+                                    </svg>Home</span></a>
+                            <div></div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="new.html" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;" title="Create a new note"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-plus" style="margin-bottom: 3px;margin-right: 9px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                        <line x1="12" y1="11" x2="12" y2="17"></line>
+                                        <line x1="9" y1="14" x2="15" y2="14"></line>
+                                    </svg>New note</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="settings.html" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;background: #30363d;" title="More options and settings"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-settings" style="margin-bottom: 3px;margin-right: 9px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>More</span></a></li>
+                    </ul>
+                </div>
+                <div style="padding-right: 9px;padding-left: 9px;padding-bottom: 9px;margin-top: -5px;width: 100%;">
+                    <div class="input-group" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;border-radius: 5px;width: 100%;border-style: none;border-bottom: 2px solid #6c7889 ;" title="Type and press enter to search your notes"><input class="form-control" type="text" style="background: #0A0B0C;color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 14px;width: 100%;border-style: none;border-bottom-style: none;" placeholder="Search your notes"></div>
+                </div>
+                <div data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" style="margin-top: -5px;width: 100%;padding: 16px;position:absolute;bottom:0;" title="Tap to open your profile page"><a style="color: transparent;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-2" aria-controls="offcanvas-2"><span style="color: #d1d1d1;"><img src="assets/img/JzN581sga.jpg?h=f24e9ee00eda0f9e5c92461731458d63" style="width: 30px;height: 30px;border-radius: 5px;margin-right: 9px;margin-bottom: -9px;">Pranav<br></span>
+                        <p style="margin-left: 39px;margin-top: -7px;font-size: 12px;color: #adadad;">@deltaonealpha</p>
+                    </a></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper" style="background: transparent;">
+            <div id="content">
+                <div class="container-fluid" style="margin-top: 25px;">
+                    <h1 style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 28px;margin-bottom: 15px;">Settings and About</h1>
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4"></div>
+                </div>
+                <div class="container" style="font-weight: bold;margin-top: -15px;">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8 col-xl-8 col-xxl-8" style="padding-left: 12px;padding-right: 12px;text-align: left;margin-bottom: 35px;">
+                            <div id="crpagediv-1" class="shaderbacklight" style="border-radius: 5px;color: #d1d1d1;font-size: 16px;font-family: 'Nunito Sans', sans-serif;padding-top: 5px;padding-right: 11px;padding-left: 11px;text-align: left;margin-bottom: 26px;padding-bottom: 9px;background: #161b22;">
+                                <h1 class="text-uppercase classtext lighttextct borderbottom" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size: 14px;margin-top: 9px;padding-bottom: 3px;margin-bottom: 0px;border-bottom-style: none;">AUTOSAVE</h1>
+                                <div style="margin-top: -22px;margin-bottom: 0px;text-align: right;border-style: none;border-bottom-style: none;"><label class="switch">
+  <input id="autosave" type="checkbox" checked>
+  <span class="slider round"></span>
+</label></div>
+                                <p class="lead lighttextct" style="font-size: 14px;font-family: 'Nunito Sans', sans-serif;margin-bottom: 5px;margin-top: -8px;padding-top: 0px;">Automatically saves changes to notes you create in intervals<br></p>
+                                <h1 class="text-uppercase classtext lighttextct borderbottom" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size: 14px;margin-top: 15px;padding-bottom: 3px;margin-bottom: 0px;border-bottom-style: none;">AUTOSAVE INTERVAL</h1>
+                                <div style="text-align: right;margin-top: -27px;"><a class="btn btn-primary classbgr3" role="button" style="background: #30363d;font-family: 'Nunito Sans', sans-serif;padding-left: 7px;padding-right: 7px;padding-top: 0px;padding-bottom: 0px;color: #d1d1d1;margin-top: 5px;font-size: 13px;text-align: center;margin-right: 9px;border-style: none;border-bottom: 2px solid #60c659;" onclick="autosave_interval_5();">5s</a><a class="btn btn-primary classbgr3" role="button" style="background: #30363d;font-family: 'Nunito Sans', sans-serif;padding-left: 7px;padding-right: 7px;padding-top: 0px;padding-bottom: 0px;color: #d1d1d1;margin-top: 5px;font-size: 13px;text-align: center;margin-right: 9px;border-style: none;border-bottom: 2px solid #4b4b4b;" onclick="autosave_interval_15();">15s</a><a class="btn btn-primary classbgr3" role="button" style="background: #30363d;font-family: 'Nunito Sans', sans-serif;padding-left: 7px;padding-right: 7px;padding-top: 0px;padding-bottom: 0px;color: #d1d1d1;margin-top: 5px;font-size: 13px;text-align: center;border-style: none;border-bottom: 2px solid #4b4b4b;" onclick="autosave_interval_30();">30s</a></div>
+                                <div style="text-align: right;margin-top: -27px;"><a class="btn btn-primary classbgr3" role="button" style="background: #30363d;font-family: 'Nunito Sans', sans-serif;padding-left: 7px;padding-right: 7px;padding-top: 0px;padding-bottom: 0px;color: #d1d1d1;margin-top: 5px;font-size: 13px;text-align: center;margin-right: 9px;border-style: none;border-bottom: 2px solid #60c659;" onclick="autosave_a();">5s</a><a class="btn btn-primary classbgr3" role="button" style="background: #30363d;font-family: 'Nunito Sans', sans-serif;padding-left: 7px;padding-right: 7px;padding-top: 0px;padding-bottom: 0px;color: #d1d1d1;margin-top: 5px;font-size: 13px;text-align: center;margin-right: 9px;border-style: none;border-bottom: 2px solid #4b4b4b;" onclick="autosave_b();">15s</a><a class="btn btn-primary classbgr3" role="button" style="background: #30363d;font-family: 'Nunito Sans', sans-serif;padding-left: 7px;padding-right: 7px;padding-top: 0px;padding-bottom: 0px;color: #d1d1d1;margin-top: 5px;font-size: 13px;text-align: center;border-style: none;border-bottom: 2px solid #4b4b4b;" onclick="autosave_c();">30s</a></div>
+                                <p class="lead lighttextct" style="font-size: 14px;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;margin-top: 0px;padding-top: 0px;">Select the intervals to autosave in<br><em>Increase this if you observe excessive server load</em></p>
+                                <h1 class="text-uppercase classtext lighttextct borderbottom" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size: 14px;margin-top: 15px;padding-bottom: 3px;margin-bottom: 0px;border-bottom-style: none;">TELEMETRY</h1>
+                                <div style="margin-top: -22px;margin-bottom: 0px;text-align: right;border-style: none;border-bottom-style: none;"><label class="switch">
+  <input id="telemetry" type="checkbox" checked>
+  <span class="slider round"></span>
+</label></div>
+                                <p class="lead lighttextct" style="font-size: 14px;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;margin-top: -8px;padding-top: 0px;">QuadNota sends basic network details as telemetry to its servers</p><script>
+function autosave_a(){
+iziToast.show({
+    title: 'Auto Save Interval',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Content will be saved every 5 seconds."
+});
+}   
+function autosave_b(){
+iziToast.show({
+    title: 'Auto Save Interval',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Content will be saved every 15 seconds."
+});
+}   
+function autosave_c(){
+iziToast.show({
+    title: 'Auto Save Interval',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Content will be saved every 30 seconds."
+});
+}   
+function telemetry_on(){
+iziToast.show({
+    title: 'Telemetry',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Basic network data will be shared with QuadNota servers."
+});
+}
+function telemetry_off(){
+iziToast.show({
+    title: 'Telemetry',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "No network data will be shared with QuadNota servers."
+});
+}
+function autosave_on(){
+iziToast.show({
+    title: 'Auto Save',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Notes will be saved as you create them."
+});
+}
+function autosave_off(){
+iziToast.show({
+    title: 'Auto Save',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Note have to be manually saved."
+});
+}
+document.getElementById('telemetry').addEventListener('change', e => {
+if(e.target.checked){telemetry_on();}else{telemetry_off();}});
+document.getElementById('autosave').addEventListener('change', e => {
+if(e.target.checked){autosave_on();}else{autosave_off();}});
+</script>
+                            </div>
+                        </div>
+                        <div class="col" style="padding-right: 12px;padding-left: 12px;margin-bottom: 152px;">
+                            <div id="crpagediv-3" class="shaderbacklight" style="border-radius: 5px;color: #d1d1d1;font-size: 16px;font-family: 'Nunito Sans', sans-serif;padding-top: 5px;padding-right: 11px;padding-bottom: 9px;padding-left: 11px;text-align: right;background: #161b22;">
+                                <h1 class="text-uppercase classtext lighttextct borderbottom" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 14px;margin-top: 9px;padding-bottom: 5px;margin-bottom: 0px;text-align: left;letter-spacing: 9px;">QUADNOTA</h1>
+                                <p class="lead lighttextct" style="font-size: 14px;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;text-align: left;">A modern and minimal notes and todo webapp.<br></p>
+                                <div id="crpagediv-2" class="shaderbacklight" style="border-radius: 5px;color: #d1d1d1;font-size: 16px;font-family: 'Nunito Sans', sans-serif;padding: 9px;padding-top: 9px;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;text-align: right;background: #0A0B0C;margin-top: 15px;">
+                                    <p class="lead lighttextct" style="font-size: 13px;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;text-align: left;font-weight: bold;">BUILD DETAILS<br></p>
+                                    <p class="lead lighttextct" style="font-size: 14px;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;text-align: left;">Version:<span class="font-monospace float-end">1.01</span><br>Backend:<span class="font-monospace float-end">C</span><br>Deployment: <span class="font-monospace float-end">STAGING</span></p>
+                                </div><a class="btn btn-primary classbgr3" role="button" style="background: #0A0B0C;font-family: 'Nunito Sans', sans-serif;padding-left: 9px;padding-right: 9px;padding-top: 9px;padding-bottom: 9px;color: #d1d1d1;margin-top: 5px;font-size: 15px;box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.15);text-align: center;margin-right: 9px;border-style: none;border-bottom: 2px solid #4b4b4b;width: 100%;" href="https://github.com/deltaonealpha/quadnota-c" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-github" style="margin-bottom: 3px;margin-right: 5px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                                    </svg>GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><style>
+    .menulevel {
+        background-color: rgba(83,83,83,0.39);
+    }
+a {
+  text-decoration: none !important;
+}
+.input:focus {
+    outline: none !important;
+    border:3px solid #88A8E8 !important;
+</style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-init.js?h=f85385df9bc7fca4241bc1dbf53b9d61"></script>
+    <script src="assets/js/theme.js?h=79f403485707cf2617c5bc5a2d386bb0"></script>
+    <script src="assets/js/wysiwyg.js?h=7aab80b997b6fb382ea910e362eec34f"></script>
+</body>
+
+</html>

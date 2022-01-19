@@ -1,0 +1,16 @@
+var settings = {
+  "url": "http://143.244.143.217:8080/post/notes",
+  "method": "POST",
+  "timeout": 0,
+  "headers": {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "data": {
+    "heading": "header",
+    "bodypayload": "bodypayload"
+  }
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});

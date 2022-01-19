@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html style="background: #181718;">
+
+<head>
+    <meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>QUADNOTA</title>
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="icon" type="image/png" sizes="24x24" href="assets/img/icons8-0-degrees-24.png?h=7db957938f69ab58a157fb8199ac8354">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=2f644164ad6a5913bc76e72118161a32">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css?h=4405a86aa591b631e663f03d1014b91e">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch-1.css?h=d86f30044a61257d651a6fba45afa4c4">
+    <link rel="stylesheet" href="assets/css/wysiwyg.css?h=4c321ae8d88c4847721a5487691e39b5">
+</head>
+
+<body id="page-top" style="background: #0d1117;">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion p-0 menulevel" style="background: #161b22;text-align: left;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" href="#" style="text-align: left;padding-top: 9px;padding-bottom: 9px;padding-right: 9px;padding-left: 9px;" title="Tap to go home">
+                    <div class="sidebar-brand-icon rotate-n-15"></div>
+                    <div class="sidebar-brand-text mx-3"><span style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;letter-spacing: 9px;font-weight: normal;text-align: left;">QUADNOTA</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <div style="padding-right: 5px;">
+                    <ul class="navbar-nav text-light" id="accordionSidebar-1">
+                        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="index.html" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;background: #30363d;margin-right: 0px;margin-left: 0px;" title="QuadNota home"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-folders" style="margin-bottom: 3px;margin-right: 9px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M9 4h3l2 2h5a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"></path>
+                                        <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2"></path>
+                                    </svg>Home</span></a>
+                            <div></div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="new.html" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;" title="Create a new note"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-plus" style="margin-bottom: 3px;margin-right: 9px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                        <line x1="12" y1="11" x2="12" y2="17"></line>
+                                        <line x1="9" y1="14" x2="15" y2="14"></line>
+                                    </svg>New note</span></a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="settings.html" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;" title="More options and settings"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-settings" style="margin-bottom: 3px;margin-right: 9px;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>More</span></a></li>
+                    </ul>
+                </div>
+                <div style="padding-right: 9px;padding-left: 9px;padding-bottom: 9px;margin-top: -5px;width: 100%;">
+                    <div class="input-group" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;border-radius: 5px;width: 100%;border-style: none;border-bottom: 2px solid #6c7889 ;" title="Type and press enter to search your notes"><input class="form-control" type="text" style="background: #0A0B0C;color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 14px;width: 100%;border-style: none;border-bottom-style: none;" placeholder="Search your notes"></div>
+                </div>
+                <div data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" style="margin-top: -5px;width: 100%;padding: 16px;position:absolute;bottom:0;" title="Tap to open your profile page"><a style="color: transparent;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-2" aria-controls="offcanvas-2"><span style="color: #d1d1d1;"><img src="assets/img/JzN581sga.jpg?h=f24e9ee00eda0f9e5c92461731458d63" style="width: 30px;height: 30px;border-radius: 5px;margin-right: 9px;margin-bottom: -9px;">Pranav<br></span>
+                        <p style="margin-left: 39px;margin-top: -7px;font-size: 12px;color: #adadad;">@deltaonealpha</p>
+                    </a></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper" style="background: transparent;">
+            <div id="content">
+                <div class="container-fluid" style="margin-top: 25px;">
+                    <h1 style="color: #adadad;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;font-size: 18px;">Pranav's</h1>
+                    <h1 style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;font-size: 28px;">Dashboard</h1>
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4"></div>
+                    <div class="row" id="corow">
+                        <div class="col-lg-7 col-xl-8" id="c1">
+                            <div class="card shadow mb-4" style="background: #161b22;border-style: none;">
+                                <div class="card-header d-flex justify-content-between align-items-center" style="background: #30363d;padding-top: 15px;padding-bottom: 15px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69);border-radius: 5px;">
+                                    <h1 style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;font-size: 16px;font-weight: bold;">Notes</h1><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: #161b22;border-radius: 5px;font-size: 14px;padding-top: 4px;padding-bottom: 4px;border-style: none;border-color: #6c7889;border-bottom-width: 2px;border-bottom-style: solid;" href="new.html" title="Tap to add a new note">NEW</a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-group" style="background: #30363d;">
+                                        <li class="list-group-item" style="background: transparent;color: #d1d1d1;border-bottom: 2px solid #6c7889 ;">
+                                            <h6 class="mb-0"><strong>Season 6 Review</strong></h6>
+                                            <div class="dropdown float-end" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" style="text-align: right;" title="Tap to view actions"><button class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-top: -20px;margin-right: -9px;padding-top: 9px;padding-bottom: 9px;font-size: 14px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;border-radius: 5px;background: rgba(22,27,34,0.55);">Actions</button>
+                                                <div class="dropdown-menu" style="border-style: none;padding-top: 0px;padding-bottom: 0px;background: transparent;">
+                                                    <div style="background: rgba(22,27,34,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);padding-right: 5px;padding-left: 5px;margin-top: 9px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69);padding-right: 7px;padding-left: 7px;" href="new.html" title="Open the note to be viewen"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-eye" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <circle cx="12" cy="12" r="2"></circle>
+                                                                <path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7"></path>
+                                                            </svg>View note</a><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 5px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;width: 100%;text-align: left;padding-left: 7px;padding-right: 7px;" href="new.html" title="Edit the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-pencil" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4"></path>
+                                                                <line x1="13.5" y1="6.5" x2="17.5" y2="10.5"></line>
+                                                            </svg>Edit note</a></div>
+                                                    <div style="background: rgba(22,27,34,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);margin-top: 9px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: rgba(22,27,34,0.55);font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 5px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;width: 100%;text-align: left;backdrop-filter: blur(9px);color: #fb897a;" href="new.html" title="Delete the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trash" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <line x1="4" y1="7" x2="20" y2="7"></line>
+                                                                <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                                <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                                <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                                                <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                                            </svg>Delete note<br></a></div>
+                                                </div>
+                                            </div><a href="#" style="color: #d1d1d1;"><span class="text-truncate text-xs">Lorem ipsum dolor sit amet<br></span></a>
+                                        </li>
+                                        <li class="list-group-item" style="background: transparent;color: #d1d1d1;border-bottom: 2px solid #6c7889 ;">
+                                            <h6 class="mb-0"><strong>I don't know what I'm writing at this point</strong><br></h6>
+                                            <div class="dropdown float-end" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" style="text-align: right;" title="Tap to view actions"><button class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-top: -20px;margin-right: -9px;padding-top: 9px;padding-bottom: 9px;font-size: 14px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;border-radius: 5px;background: rgba(22,27,34,0.55);">Actions</button>
+                                                <div class="dropdown-menu" style="border-style: none;padding-top: 0px;padding-bottom: 0px;background: transparent;">
+                                                    <div style="background: rgba(22,27,34,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);padding-right: 5px;padding-left: 5px;margin-top: 9px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69);padding-right: 7px;padding-left: 7px;" href="new.html" title="Open the note to be viewen"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-eye" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <circle cx="12" cy="12" r="2"></circle>
+                                                                <path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7"></path>
+                                                            </svg>View note</a><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 5px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;width: 100%;text-align: left;padding-left: 7px;padding-right: 7px;" href="new.html" title="Edit the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-pencil" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4"></path>
+                                                                <line x1="13.5" y1="6.5" x2="17.5" y2="10.5"></line>
+                                                            </svg>Edit note</a></div>
+                                                    <div style="background: rgba(22,27,34,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);margin-top: 9px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: rgba(22,27,34,0.55);font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 5px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;width: 100%;text-align: left;backdrop-filter: blur(9px);color: #fb897a;" href="new.html" title="Delete the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trash" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <line x1="4" y1="7" x2="20" y2="7"></line>
+                                                                <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                                <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                                <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                                                <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                                            </svg>Delete note<br></a></div>
+                                                </div>
+                                            </div><a href="#" style="color: #d1d1d1;"><span class="text-truncate text-xs">Pretty much the heading...<br></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-xl-4 col-xxl-4" id="c2">
+                            <div class="card shadow mb-4" style="background: #161b22;border-style: none;">
+                                <div class="card-header d-flex justify-content-between align-items-center" style="background: #30363d;padding-top: 15px;padding-bottom: 15px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69);border-radius: 5px;">
+                                    <h1 style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;font-size: 16px;font-weight: bold;">Todo</h1><a class="btn btn-dark" role="button" data-bs-toggle="offcanvas" data-bss-tooltip="" data-bs-placement="bottom" style="background: #161b22;border-radius: 5px;font-size: 14px;padding-top: 4px;padding-bottom: 4px;border-style: none;border-color: #6c7889;border-bottom-width: 2px;border-bottom-style: solid;" href="new.html" data-bs-target="#offcanvas-1" aria-controls="offcanvas-1" title="Tap to add a new todo">NEW</a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-group" style="background: #30363d;">
+                                        <li class="list-group-item" style="background: transparent;color: #d1d1d1;border-bottom: 2px solid #6c7889 ;">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col me-2">
+                                                    <h6 class="mb-0" style="font-family: 'Nunito Sans', sans-serif;font-weight: 300;font-size: 14px;"><strong>Water the plants</strong></h6>
+                                                </div>
+                                                <div class="col-auto" style="border-left: 1px solid rgb(83,83,83) ;">
+                                                    <div class="dropdown float-end" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" style="text-align: right;" title="Tap to view options"><button class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="padding-top: 5px;padding-bottom: 5px;font-size: 12px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;border-radius: 5px;background: rgba(0,0,0,0.55);margin-right: -9px;">Mark</button>
+                                                        <div class="dropdown-menu" style="border-style: none;padding-top: 0px;padding-bottom: 0px;background: transparent;">
+                                                            <div style="background: rgba(0,0,0,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);padding-right: 5px;padding-left: 5px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;padding-right: 7px;padding-left: 7px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69) ;" href="new.html" title="Mark the selected todo as complete"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-checkbox" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                        <polyline points="9 11 12 14 20 6"></polyline>
+                                                                        <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"></path>
+                                                                    </svg>Mark&nbsp;<span class="font-monospace">completed</span></a><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;color: #fb897a;padding-right: 7px;padding-left: 7px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69) ;" href="new.html" title="Edit the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trash" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                        <line x1="4" y1="7" x2="20" y2="7"></line>
+                                                                        <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                                        <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                                        <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                                                        <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                                                    </svg>Mark&nbsp;<span class="font-monospace">deleted</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item" style="background: transparent;color: #d1d1d1;border-bottom: 2px solid #6c7889 ;">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col me-2">
+                                                    <h6 class="mb-0" style="font-family: 'Nunito Sans', sans-serif;font-weight: 300;font-size: 14px;"><strong>Call the repair guy and give him a nice long lecture</strong></h6>
+                                                </div>
+                                                <div class="col-auto" style="border-left: 1px solid rgb(83,83,83) ;">
+                                                    <div class="dropdown float-end" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" style="text-align: right;" title="Tap to view options"><button class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="padding-top: 5px;padding-bottom: 5px;font-size: 12px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;border-radius: 5px;background: rgba(0,0,0,0.55);margin-right: -9px;">Mark</button>
+                                                        <div class="dropdown-menu" style="border-style: none;padding-top: 0px;padding-bottom: 0px;background: transparent;">
+                                                            <div style="background: rgba(0,0,0,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);padding-right: 5px;padding-left: 5px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;padding-right: 7px;padding-left: 7px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69) ;" href="new.html" title="Mark the selected todo as complete"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-checkbox" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                        <polyline points="9 11 12 14 20 6"></polyline>
+                                                                        <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"></path>
+                                                                    </svg>Mark&nbsp;<span class="font-monospace">completed</span></a><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;color: #fb897a;padding-right: 7px;padding-left: 7px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69) ;" href="new.html" title="Edit the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trash" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                        <line x1="4" y1="7" x2="20" y2="7"></line>
+                                                                        <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                                        <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                                        <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                                                        <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                                                    </svg>Mark&nbsp;<span class="font-monospace">deleted</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item" style="background: transparent;color: #d1d1d1;border-bottom: 2px solid #6c7889 ;">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col me-2">
+                                                    <h6 class="mb-0" style="font-family: 'Nunito Sans', sans-serif;font-weight: 300;font-size: 14px;">Placeholder text</h6>
+                                                </div>
+                                                <div class="col-auto" style="border-left: 1px solid rgb(83,83,83) ;">
+                                                    <div class="dropdown float-end" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" style="text-align: right;" title="Tap to view options"><button class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="padding-top: 5px;padding-bottom: 5px;font-size: 12px;border-style: none;border-color: #6c7889;border-bottom-width: 1px;border-bottom-style: none;border-radius: 5px;background: rgba(0,0,0,0.55);margin-right: -9px;">Mark</button>
+                                                        <div class="dropdown-menu" style="border-style: none;padding-top: 0px;padding-bottom: 0px;background: transparent;">
+                                                            <div style="background: rgba(0,0,0,0.55);border-radius: 5px;backdrop-filter: blur(5px);border: 1px solid rgb(53,60,69);padding-right: 5px;padding-left: 5px;"><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;padding-right: 7px;padding-left: 7px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69) ;" href="new.html" title="Mark the selected todo as complete"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-checkbox" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                        <polyline points="9 11 12 14 20 6"></polyline>
+                                                                        <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"></path>
+                                                                    </svg>Mark&nbsp;<span class="font-monospace">completed</span></a><a class="btn btn-dark" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="background: transparent;font-size: 14px;padding-top: 9px;padding-bottom: 9px;border-radius: 0px;width: 100%;text-align: left;color: #fb897a;padding-right: 7px;padding-left: 7px;border-style: none;border-color: #6c7889;border-bottom: 1px solid rgb(53,60,69) ;" href="new.html" title="Edit the selected note"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trash" style="margin-bottom: 3px;margin-right: 9px;">
+                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                        <line x1="4" y1="7" x2="20" y2="7"></line>
+                                                                        <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                                        <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                                        <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                                                        <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                                                    </svg>Mark&nbsp;<span class="font-monospace">deleted</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="text-align: right;">
+                        <div class="col">
+                            <div class="card shadow mb-4" id="cobimastercarddiv" style="background: url(&quot;assets/img/background_blueblack_bdlur.png?h=82ff12917bce386f7ecdc1cefda7ff92&quot;) center / cover, #30363d;border-style: none;margin-top: 15px;margin-bottom: 15px;text-align: left;border-radius: 5px;">
+                                <div class="card-body" style="padding: 15px;text-align: left;background: rgba(17,17,17,0.45);border-radius: 5px;">
+                                    <h6 class="mb-0" style="color: #d1d1d1;padding-bottom: 0px;line-height: 19.2px;font-size: 15px;">Change tab order</h6>
+                                    <h6 class="mb-0" style="color: #adadad;font-size: 12px;">Tap the order to use</h6>
+                                    <h6 class="mb-0" style="color: #adadad;font-size: 12px;text-align: right;margin-top: -35px;"><a class="btn btn-primary classbgr3" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" style="background: rgba(55,50,50,0.55);font-family: 'Nunito Sans', sans-serif;padding-left: 25px;padding-right: 25px;padding-top: 9px;padding-bottom: 9px;color: #d1d1d1;font-size: 13px;text-align: center;border-style: none;border-color: #6c7889;border-bottom-width: 2px;border-bottom-style: solid;border-radius: 5px;" onclick="columnorder();" title="Reverse tab order on the home page"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg></a></h6><script>
+function columnorder() {
+$("#cobimastercarddiv").fadeOut('slow', function(){$("#corow").fadeOut('slow', function(){
+var c1 = document.getElementById("c1").innerHTML;
+var c2 = document.getElementById("c2").innerHTML;
+document.getElementById("c2").innerHTML = c1;
+document.getElementById("c1").innerHTML = c2;
+$("#corow").fadeIn('slow', function(){
+$("#cobimastercarddiv").fadeIn('slow', function(){
+iziToast.show({
+    title: 'Tab Order Changed',
+    timeout: 3589,
+    displayMode: "once",
+    messageColor: "#181718",
+    titleColor: "#181718",
+    pauseOnHover: true,
+    theme: 'light', // light
+    backgroundColor: '#d1d1d1',
+    position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+    message: "Tap the button again to reset tab positions."
+});
+});});});})
+}
+</script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><style>
+    .menulevel {
+        background-color: rgba(83,83,83,0.39);
+    }
+a {
+  text-decoration: none !important;
+}
+</style>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-1" style="background: #161b22;backdrop-filter: blur(15px);border-top-left-radius: 5px;border-top-right-radius: 5px;backdrop-background: #d1d1d1;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" style="color: #d1d1d1;">Add a todo task</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="padding-top: 5px;">
+            <div style="text-align: left;"><input type="text" class="input" style="padding-top: 9px;padding-bottom: 9px;padding-right: 9px;padding-left: 9px;background: #30363D;border-radius: 5px;color: #181718;margin-top: 0px;border: 3px none rgb(83,83,83);border-left: 3px none rgb(83,83,83);margin-bottom: 5px;width: 100%;" placeholder="Type here"></div><button class="btn btn-dark" type="button" style="background: #30363D;border-radius: 5px;font-size: 14px;padding-top: 4px;padding-bottom: 4px;margin-top: 15px;border-style: none;border-color: #adadad;padding-right: 25px;padding-left: 25px;text-align: left;color: #d1d1d1;">SAVE</button><button class="btn btn-dark" type="button" style="background: #30363D;border-radius: 5px;font-size: 14px;padding-top: 4px;padding-bottom: 4px;margin-top: 15px;border-style: none;border-color: #adadad;padding-right: 25px;padding-left: 25px;text-align: left;color: #d1d1d1;margin-left: 15px;" data-bs-dismiss="offcanvas">CLOSE</button>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-2" style="background: rgba(13,17,23,0.55);backdrop-filter: blur(15px);width: 100%;backdrop-filter: blur(15px);">
+        <div class="offcanvas-body" style="padding-top: 5px;">
+            <div class="container-fluid" style="margin-top: 25px;"><button class="btn btn-dark" type="button" style="background: #30363d;border-radius: 5px;font-size: 14px;padding-top: 15px;padding-bottom: 15px;margin-top: 15px;border-style: none;border-color: #adadad;padding-right: 25px;padding-left: 25px;text-align: left;color: #d1d1d1;" data-bs-dismiss="offcanvas">CLOSE</button>
+                <h1 class="text-uppercase" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;margin-bottom: -5px;font-size: 14px;margin-top: 35px;margin-left: 62px;">Profile</h1>
+                <h1 class="classtext ctdark lighttextct" style="font-size: 26px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-top: 5px;margin-bottom: 0px;color: #d1d1d1;"><img style="width: 52px;height: 52px;margin-right: 9px;border-radius: 50%;margin-top: -25px;" src="assets/img/JzN581sga.jpg?h=f24e9ee00eda0f9e5c92461731458d63">Pranav Balaji</h1>
+                <div class="d-sm-flex justify-content-between align-items-center mb-4"></div>
+                <div class="row">
+                    <div class="col-lg-7 col-xl-8">
+                        <div class="card shadow mb-4" style="background: rgba(48,54,61,0.75);border-style: none;">
+                            <div class="card-body">
+                                <h1 class="classtext ctdark lighttextct" style="font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;color: #adadad;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-ball-bowling lighttextct" style="padding-bottom: 2px;margin-right: 5px;margin-left: 0px;color: #adadad;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <circle cx="12" cy="12" r="9"></circle>
+                                        <line x1="11" y1="9" x2="11" y2="9.01"></line>
+                                        <line x1="15" y1="8" x2="15" y2="8.01"></line>
+                                        <line x1="14" y1="12" x2="14" y2="12.01"></line>
+                                    </svg>@deltaonealpha</h1>
+                                <h1 class="font-monospace classtext ctdark lighttextct" style="font-size: 12px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;margin-top: 0px;margin-left: 22px;font-weight: normal;color: #adadad;">New Delhi, IN</h1>
+                                <p class="ctdark lighttextct" style="font-size: 14px;font-family: 'Nunito Sans', sans-serif;text-align: left;margin-bottom: 9px;padding-top: 0px;border-bottom: 1px none #373737;margin-top: 5px;color: #adadad;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-forbid-2 lighttextct" style="padding-bottom: 2px;margin-right: 8px;margin-left: 0px;font-size: 14px;color: #adadad;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <circle cx="12" cy="12" r="9"></circle>
+                                        <line x1="9" y1="15" x2="15" y2="9"></line>
+                                    </svg><strong>BIO</strong></p>
+                                <p class="lead font-monospace lighttextct" style="font-size: 11px;font-family: 'Nunito Sans', sans-serif;text-align: left;margin-top: -14px;margin-bottom: 0px;padding-left: 18px;margin-left: 5px;border: 1px none #4b4b4b;border-top: 1px none #4b4b4b;border-bottom: 1px none #4b4b4b;color: #adadad;">Ars longa, vita brewis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-xl-4 col-xxl-4">
+                        <div class="card shadow mb-4" style="background: #161b22;border-style: none;">
+                            <div class="card-header d-flex justify-content-between align-items-center" style="background: #30363d;border-style: none;padding-top: 15px;padding-bottom: 15px;">
+                                <h1 style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;font-size: 16px;font-weight: bold;">Edit Profile</h1>
+                            </div>
+                            <div class="card-body" style="text-align: right;">
+                                <h1 class="classtext ctdark lighttextct" style="font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;color: #adadad;"><span style="letter-spacing: 3px;">QUADNOTA</span> uses Lirecent accounts based on their account exchange API.<br><br>To edit your information (bio, username, location) on <span style="letter-spacing: 3px;">QUADNOTA</span>, make changes to your Lirecent account.</h1><span style="color: #d1d1d1;font-size: 11px;"><img src="assets/img/dwrsplogo.png?h=41321b369d12c5a8fd6b54dbccef9288" style="width: 15px;margin-right: 2px;margin-bottom: 2px;">Lirecent Account Exchange</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-init.js?h=f85385df9bc7fca4241bc1dbf53b9d61"></script>
+    <script src="assets/js/theme.js?h=79f403485707cf2617c5bc5a2d386bb0"></script>
+    <script src="assets/js/wysiwyg.js?h=7aab80b997b6fb382ea910e362eec34f"></script>
+</body>
+
+</html>

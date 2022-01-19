@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/backend.dir/db.c.o CMakeFiles/backend.dir/test.c.o -o backend 
